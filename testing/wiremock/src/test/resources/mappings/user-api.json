@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/user",
+    "bodyPatterns": [
+      {
+        "equalToJson": {
+          "userId": "123",
+          "type": "premium"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "status": "success",
+      "message": "User found",
+      "data": {
+        "id": "123",
+        "plan": "premium"
+      }
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+2026-04-13 21:37:58 [main] INFO  example.HelloWorld - Hello satyam
+2026-04-13 21:47:43 [main] INFO  example.HelloWorld - Hello satyam
+2026-04-13 21:47:43 [main] ERROR example.HelloWorld - Hello from NullPointerException
